@@ -1,8 +1,8 @@
 /* =================================
 ------------------------------------
-  Civic - CV Resume
+  CV Resume
   Version: 1.0
- ------------------------------------ 
+ ------------------------------------
  ====================================*/
 
 /*----------------------------------------*/
@@ -37,7 +37,7 @@ h3 {
 p {
 	font-size: 18px;
 	color: #808181;
-	line-height: 1.8;
+	line-height: 1.4;
 }
 
 img {
@@ -67,14 +67,14 @@ ol {
 	Helper CSS
 -----------------------*/
 .spad {
-	padding-top: 125px;
-	padding-bottom: 110px;
+	padding-top: 80px;
+	padding-bottom: 70px;
 }
 
 .section-title h2 {
 	display: inline-block;
 	position: relative;
-	margin-bottom: 110px;
+	margin-bottom: 60px;
 	padding-bottom: 2px;
 	line-height: normal;
 }
@@ -246,6 +246,7 @@ ol {
 
 .fact-box.trans {
 	background-color: transparent;
+	width: relative;
 }
 
 .fact-box .fact-content {
@@ -255,8 +256,9 @@ ol {
 }
 
 .fact-box .fact-content img {
-	width: 60px;
+	width: 50px;
 	margin-bottom: 30px;
+	height: 50px;
 }
 
 .fact-box .fact-content h2 {
@@ -414,7 +416,7 @@ ol {
 }
 
 .hero-info h2 {
-	margin-bottom: 30px;
+	margin-bottom: 35px;
 }
 
 .hero-info ul {
@@ -422,7 +424,7 @@ ol {
 }
 
 .hero-info ul li {
-	font-size: 24px;
+	font-size: 20px;
 	color: #808181;
 	margin-bottom: 15px;
 }
@@ -430,7 +432,7 @@ ol {
 .hero-info ul li span {
 	color: #40424a;
 	display: inline-block;
-	min-width: 220px;
+	min-width: 10px;
 }
 
 .hero-info ul li:last-child {
@@ -495,12 +497,13 @@ ol {
 .resume-list {
 	list-style: none;
 	margin-left: 60px;
-	padding-left: 110px;
+	padding-left: 80px;
 	border-left: 2px solid #40424a;
 }
 
 .resume-list li {
-	margin-bottom: 120px;
+	text-align: justify;
+	margin-bottom: 40px;
 	position: relative;
 }
 
@@ -521,8 +524,13 @@ ol {
 }
 
 .resume-list h2 {
-	font-size: 60px;
+	font-size: 20px;
 	margin-bottom: 10px;
+}
+
+.resume-list h3 {
+	font-size: 30px;
+	margin-bottom: 5px;
 }
 
 
@@ -531,7 +539,7 @@ ol {
 	text-transform: uppercase;
 	color: #808181;
 	margin-top: 10px;
-	margin-bottom: 45px;
+	margin-bottom: 30px;
 }
 
 .resume-list p {
@@ -776,6 +784,8 @@ ol {
 
 .home-two-style .fact-box.trans {
 	border: none;
+	background: #f2f7f8;
+
 }
 
 .home-two-style .footer-section {
@@ -811,13 +821,13 @@ ol {
 
 .home-three-style .main-left-area .section-title h2,
 .home-four-style .main-left-area .section-title h2 {
-	margin-bottom: 130px;
+	margin-bottom: 60px;
 }
 
 .home-three-style .main-right-area,
 .home-four-style .main-right-area {
 	padding-top: 200px;
-	padding-left: 110px;
+	padding-left: 80px;
 }
 
 .home-three-style .resume-list li,
@@ -890,7 +900,7 @@ ol {
 
 .home-three-style .fact-box.trans,
 .home-four-style .fact-box.trans {
-	margin-bottom: 80px;
+	margin-bottom: 10px;
 }
 
 .home-three-style .social-links,
