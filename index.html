@@ -202,6 +202,42 @@
       }
     </script>
 
+
+<!--
+		<script type="text/javascript">
+    google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ["Databases", "Years_Experience", { role: "style" } ],
+				["Oracle", 5, "color: #8FDBFF"],
+        ["AWS Redshift", 3, "#0B8BEE"],
+        ["Google BigQuery", 3, "#022A53"],
+        ["MongoDB", 2.5, "2C70B6"],
+        ["DynamoDB", 1, "color: #385C92"],
+				["Redis", 2, "color: #849FC8"]
+      ]);
+
+      var view = new google.visualization.DataView(data);
+      view.setColumns([0, 1,
+                       { calc: "stringify",
+                         sourceColumn: 1,
+                         type: "string",
+                         role: "annotation" },
+                       2]);
+
+      var options = {
+        bar: {groupWidth: "100%"},
+				backgroundColor: '#f2f7f8',
+				width:'relative', legend: { position: 'top', alignment: 'start' }
+			}
+      var chart = new google.visualization.BarChart(document.getElementById("barchart_values_test"));
+      chart.draw(view, options);
+  }
+</script> -->
+
+
+
 </head>
 <body>
 	<!-- Page Preloder -->
@@ -316,6 +352,13 @@
 							<div id="timeline2" class="fact-content">
 							</div>
 							</div>
+
+							<!--<h5 align="center"> Number of Experience with Databases </h5>
+							<div class="fact-box trans">
+							<div id="barchart_values_test" class="fact-content">
+							</div>
+						</div>-->
+
 						</section>
 
 						<div class="social-links">
@@ -533,7 +576,7 @@
 	<!-- Start of ChatBot (www.chatbot.com) code -->
 <script type="text/javascript">
     window.__be = window.__be || {};
-    window.__be.id = "5f6f9387aaa01e0006654f7b";
+    window.__be.id = "5f6f951faaa01e0006655281";
     (function() {
         var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
         be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
